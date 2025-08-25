@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yourusername.github.io/quote-machine",
   "name": "quote-machine",
   "private": true,
   "version": "0.0.0",
@@ -7,16 +8,21 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.12",
+    "deploy": "^1.0.3",
+    "dist": "^0.1.2",
     "framer-motion": "^12.23.12",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
+    "@tailwindcss/postcss": "^4.1.12",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
